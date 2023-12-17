@@ -1,0 +1,27 @@
+{
+  "name": "and-telegram-bot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "19"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "get-mp3-duration": "^1.0.0",
+    "mongoose": "^7.5.2",
+    "openai": "^4.6.0",
+    "replicate": "^0.18.0",
+    "telegraf": "^4.13.1"
+  }
+}
